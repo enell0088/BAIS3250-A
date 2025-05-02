@@ -9,7 +9,7 @@ To access our project, we have two folders: Data Scraping and Data Analysis. Eac
 | ProjectScraping | code for scraping the data tables from our two websites and integrating scraped datasets |
 | NCAA_football_win_loss_trends.csv | scraped data tables from NCAA website over 4 seasons with data that includes win-loss percentage, margin of victory, and |
 | NCAA_raw_data.csv | scraped data tables from NCAA website over 4 seasons |
-| merged_college_football_data.csv | merged data frame from NCAA_football_win_loss_trends.csv and NCAA_raw_data.csv |
+| merged_college_football_data.csv | merged dataframe from NCAA_football_win_loss_trends.csv and NCAA_raw_data.csv |
 | ProjectAnlysis | code that applies analytics to our integrated data to answer our research questions |
 
 
