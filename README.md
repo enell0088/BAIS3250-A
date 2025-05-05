@@ -15,8 +15,7 @@ To access our project, we have two folders: Data Scraping and Data Analysis. Eac
 ---
 ### Data Dictionary
 | Field | Type | Description
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
+| Teams | Text | College Name |
+| Conference | Text | Conference in which Team Belongs |
+| Win % | Numerical | The percentage of time the team won compared to the team’s losses  |
+| MOV  | Numerical | Average margin of victory (points)  |
