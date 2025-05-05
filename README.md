@@ -20,3 +20,4 @@ To access our project, we have two folders: Data Scraping and Data Analysis. Eac
 | Conference | Text | Conference in which Team Belongs |
 | Win % | Numerical | The percentage of time the team won compared to the team’s losses  |
 | MOV  | Numerical | Average margin of victory (points)  |
+| W-L  | Numerical | Comparison of Win to Losses  |
