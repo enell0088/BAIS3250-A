@@ -7,6 +7,6 @@ Within this DataScraping folder are our team's Jupyter notebooks for scraping th
 | ------ | ------ |
 | NCAA_Scraped_Data.ipybn | jupyter notebook code that scrapes and clean data from [NCAA website](https://stats.ncaa.org/rankings?sport_code=MFB&division=11) over 4 seasons for D1 NCAA football teams |
 | NCAA_stats.csv | scraped data from [NCAA website](https://stats.ncaa.org/rankings?sport_code=MFB&division=11) over 4 seasons for D1 NCAA football teams |
-| Project_Scraping_Merging.ipybn | jupyter notebook code that scrapes and clean data from [BetIQ website](https://betiq.teamrankings.com/college-football/betting-trends/win-loss-records/)), and merges and cleans that data with NCAA_stats.csv |
+| Project_Scraping_Merging.ipybn | jupyter notebook code that scrapes and clean data from [BetIQ website](https://betiq.teamrankings.com/college-football/betting-trends/win-loss-records/), and merges and cleans that data with NCAA_stats.csv |
 | NCAA_football_win_loss_trends.csv | scraped data tables from [BetIQ website](https://betiq.teamrankings.com/college-football/betting-trends/win-loss-records/) over 4 seasons for D1 NCAA football teams |
 | merged_NCAA_football_stats.csv | merged dataframe from NCAA_football_win_loss_trends.csv and NCAA_raw_data.csv |
