@@ -13,11 +13,51 @@ To access our project, we have two folders: Data Scraping and Data Analysis. Eac
 | ProjectAnalysis | jupyter notebook with code that applies analytics to our integrated data to answer our research questions |
 
 ---
-### Data Dictionary
-| Field | Type | Description |
-| ------ | ------ | ------ |
-| Teams | Text | College Name |
-| Conference | Text | Conference in which Team Belongs |
-| Win % | Numerical | The percentage of time the team won compared to the team’s losses  |
-| MOV  | Numerical | Average margin of victory (points)  |
-| W-L  | Numerical | Comparison of Win to Losses  |
+## Data Dictionary
+
+This table describes the fields present in the dataset.
+
+| Field                     | Type      | Description                                                                                               |
+|---------------------------|-----------|-----------------------------------------------------------------------------------------------------------|
+| Teams                     | Text      | College Name                                                                                              |
+| Conference                | Text      | Conference in which the team belongs                                                                        |
+| Wins                      | Numeric   | Number of games won in the regular season                                                                 |
+| Losses                    | Numeric   | Number of games lost in the regular season                                                                |
+| Win %                     | Numeric   | The percentage of a team’s wins compared to a team’s losses in the regular season                        |
+| MOV                       | Numerical | Average margin of victory (points)                                                                          |
+| ATS +/-                   | Numerical | Against the spread record sports betting displayed as covered-not-covered-tie                             |
+| MOV_Status                | Text      | Categorized MOV based on whether a team has a MOV >=0 (Positive) or < 0 (Negative)                       |
+| G (Games played)          | Numerical | Total number of games played in the regular season                                                        |
+| Offensive Rank            | Numerical | Determined rank based on a variety of offensive metrics and season performance                              |
+| Offense TDs               | Numerical | Total number of combined offensive touchdowns in a regular season                                         |
+| Total Offense YPG         | Numerical | Season average of offensive yards per game                                                                |
+| Rushing Rank              | Numerical | Determined rank based on a variety of offensive rushing metrics and season performance                      |
+| Rushing TDs               | Numerical | Total number of rushing touchdowns in a regular season                                                    |
+| Rush YPG                  | Numerical | Season average of offensive rushing yards per game                                                        |
+| Passing Rank              | Numerical | Determined rank based on a variety of offensive passing metrics and season performance                      |
+| Pass YPG (Passing yard per game) | Numerical | Season AVG of Passing Yards / games                                                                   |
+| Passing TDs               | Numerical | Total number of passing touchdowns in a regular season                                                    |
+| Int (Interceptions)       | Numerical | Total number of picked passes (interceptions) thrown from the offense in a regular season                  |
+| Total Defense YPG         | Numerical | Season average of defensive yards per game                                                                |
+| Defensive Ranking         | Numerical | Determined rank based on a variety of defensive metrics and season performance                              |
+| Opp TDs (Opponent Touchdowns) | Numerical | Total number of opponent’s touchdowns throughout the regular season                                     |
+| Rushing Defensive Rank    | Numerical | Determined rank based on a variety of metrics involving how a defense performs against an offense’s rushing plays |
+| Opp Rush TDs (Opponent Rushing Touchdowns) | Numerical | Total number of opponent’s rushing touchdowns throughout the regular season                      |
+| Opp Rush YPG (Opponent Rushing Yard per game) | Numerical | Season AVG of the total number of yards gained by the opposing team through running plays during a game |
+| Passing Defensive Rank    | Numerical | Determined rank based on a variety of metrics involving how a defense performs against an offense’s passing plays |
+| Opp Pass TDs              | Numerical | Total number of opponent’s passing touchdowns throughout the regular season                               |
+| Opp Pass YPG              | Numerical | Season AVG of the total number of yards gained by the opposing team through passing plays during a game     |
+| TM Rank                   | Numerical | Determined rank based on a variety of turnover metrics and season performance                               |
+| Fumbles Recovered         | Numerical | Total number of fumbles recovered in a regular season                                                     |
+| Fumbles Lost              | Numerical | Total number of fumbles lost in a regular season                                                          |
+| Turnover Margin           | Numerical | Total number of giveaways (interceptions & fumbles lost) from the total number of takeaways (interceptions & opponent fumble recoveries) in a regular season |
+| PPG Rank (Penalties Per Game Rank) | Numerical | Determined rank based on a variety of penalty metrics and season performance                            |
+| Penalties                 | Numerical | Total number of penalties in a regular season                                                             |
+| Penalties Per Game        | Numerical | Season AVG of the number of penalties a team receives in a game                                            |
+| Penalty YPG Rank          | Numerical | Determined rank based on a variety of penalty metrics and season performance                            |
+| Penalty YPG               | Numerical | Season AVG of the total number of yards lost because of penalties                                           |
+| TOP Rank                  | Numerical | Determined rank based on a variety of penalty metrics and season performance                            |
+| Avg Time of Possession    | Time      | Season AVG of a team’s offensive time of possession during games                                          |
+| ATP Rank                  | Numerical | Determined rank based on a team’s average time of possession compared to other teams in the NCAA            |
+| Season                    | Numerical | The football season in which the team's data was collected                                                 |
+| Season_Date               | Date      | Dummy date variable for Time Series analysis with Season field                                             |
