@@ -61,3 +61,53 @@ This table describes the fields present in the dataset.
 | ATP Rank                  | Numerical | Determined rank based on a team’s average time of possession compared to other teams in the NCAA            |
 | Season                    | Numerical | The football season in which the team's data was collected                                                 |
 | Season_Date               | Date      | Dummy date variable for Time Series analysis with Season field                                             |
+
+---
+
+## 🔍 Research Questions
+
+1. **Is there a statistically significant relationship between offensive yards per game and win totals?**
+2. **Which regression model best predicts wins based on offensive stats?**
+3. **Does margin of victory (MOV) add explanatory power to our models?**
+4. **How well do machine learning models perform compared to baseline statistics?**
+
+---
+
+## 📈 Methods Used
+
+- **Descriptive Statistics**  
+  Summary stats and correlation analysis for key variables (e.g., mean yards/game, win %, MOV).
+
+- **Hypothesis Testing**  
+  T-tests and p-values to evaluate whether relationships are statistically significant.
+
+- **Regression Models**
+  - Linear Regression
+
+- **Model Evaluation**
+  - R² values
+
+---
+
+## ✅ Key Findings (FINISH THIS)
+
+- The strongest predictor of wins was ________, with an R² value of ____.
+- The p-value for offensive yards per game was ____, indicating (significance/no significance).
+- Adding **margin of victory** improved model performance by ____%.
+- Best model: **[Model Name]**, with an R² of ____ and RMSE of ____.
+
+---
+
+## 📌 Future Improvements
+
+- Include defensive metrics for a more holistic view.
+- Explore classification models (e.g., logistic regression) to predict bowl eligibility.
+- Incorporate play-by-play or player-level data for granular insights.
+
+---
+
+## 👥 Contributors
+
+- Emily Sanders – Data Analysis, Modeling, Report Writing
+- Emily Nell - Data Analysis, Modeling, Report Writing
+- Chaitanya Patel - Data Analysis, Modeling, Report Writing
