@@ -1,1 +1,1 @@
-
+Within this DataScraping folder are our team's Jupyter notebooks for scraping the NCAA and BETIQ website for seasons 2021-22 through 2024-25. The data obtained from these websites were then cleaned and merged with one another. The final csv file of the scraped, merged, and cleaned data is used to answer our analysis questions. 
