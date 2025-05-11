@@ -63,10 +63,12 @@ This table describes the fields present in the dataset.
 
 ## 🔍 Research Questions
 
-1. **Is there a statistically significant relationship between offensive yards per game and win totals?**
-2. **Which regression model best predicts wins based on offensive stats?**
-3. **Does margin of victory (MOV) add explanatory power to our models?**
-4. **How well do machine learning models perform compared to baseline statistics?**
+1. **Which statistical categories have the greatest correlation with wins among teams?**
+2. **Do teams with balanced offensive and defensive performance achieve higher margins of victory than teams with one-sided strengths?**
+3. **Do any teams have a high count of games with a statistically average or below-average offense/defense?**
+4. **Are there any outliers of teams with statistically below-average offense/defense that obtained more wins than ones with above-average numbers?**
+5. **5.	Are there certain conferences that present higher overall statistics. For example, does one conference have multiple teams with highly ranked offenses compared to all other conferences?**
+6. **6.	Can we predict a team’s potential MOV based on a conference’s average performance throughout Seasons 2021 through 2024?!**
 
 ---
 
@@ -83,15 +85,6 @@ This table describes the fields present in the dataset.
 
 - **Model Evaluation**
   - R² values
-
----
-
-## ✅ Key Findings (FINISH THIS)
-
-- The strongest predictor of wins was ________, with an R² value of ____.
-- The p-value for offensive yards per game was ____, indicating (significance/no significance).
-- Adding **margin of victory** improved model performance by ____%.
-- Best model: **[Model Name]**, with an R² of ____ and RMSE of ____.
 
 ---
 
