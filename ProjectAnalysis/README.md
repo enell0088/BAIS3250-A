@@ -1,6 +1,6 @@
 # Project Analysis | NCAA Football Project
 ---
-The ProjectAnalysis sections includes our jupyter notebook files that provided insights on our scraped and merged data found in the DataScraping folder.
+The ProjectAnalysis sections includes our the files that aim to answer our researh questions driven by the data scraped from the files found in the DataScraping folder.
 ---
 ### Table of Contents
 | File | Description |
