@@ -75,10 +75,10 @@ This table describes the fields present in the dataset.
 ## 📈 Methods Used
 
 - **Descriptive Statistics**  
-  Summary stats and correlation analysis for key variables (e.g., mean yards/game, win %, MOV).
+  - Summary stats and correlation analysis for key variables (e.g., mean yards/game, win %, MOV).
 
 - **Hypothesis Testing**  
-  T-tests, Pearson correlation, and p-values to evaluate whether relationships are statistically significant.
+  - T-tests, Pearson correlation, and p-values to evaluate whether relationships are statistically significant.
 
 - **Machine Learning**
   - Linear Regression
