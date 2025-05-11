@@ -68,7 +68,7 @@ This table describes the fields present in the dataset.
 3. **Do any teams have a high count of games with a statistically average or below-average offense/defense?**
 4. **Are there any outliers of teams with statistically below-average offense/defense that obtained more wins than ones with above-average numbers?**
 5. **5.	Are there certain conferences that present higher overall statistics. For example, does one conference have multiple teams with highly ranked offenses compared to all other conferences?**
-6. **6.	Can we predict a team’s potential MOV based on a conference’s average performance throughout Seasons 2021 through 2024?!**
+6. **6.	Can we predict a team’s potential MOV based on a conference’s average performance throughout Seasons 2021 through 2024?**
 
 ---
 
@@ -78,21 +78,22 @@ This table describes the fields present in the dataset.
   Summary stats and correlation analysis for key variables (e.g., mean yards/game, win %, MOV).
 
 - **Hypothesis Testing**  
-  T-tests and p-values to evaluate whether relationships are statistically significant.
+  T-tests, Pearson correlation, and p-values to evaluate whether relationships are statistically significant.
 
-- **Regression Models**
+- **Machine Learning**
   - Linear Regression
+  - Linear Regression with train test split
 
-- **Model Evaluation**
-  - R² values
+- **Time Series**
+  - Winters-Holt Method
 
 ---
 
 ## 📌 Future Improvements
 
 - Include defensive metrics for a more holistic view.
-- Explore classification models (e.g., logistic regression) to predict bowl eligibility.
-- Incorporate play-by-play or player-level data for granular insights.
+- Explore classification models (e.g., logistic regression) to predict championship eligibility.
+- Incorporate play-by-play or player-level data for deeper insights.
 
 ---
 
